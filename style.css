@@ -1,0 +1,40 @@
+body {
+    background-image: url('among-us.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;         
+    justify-content: center;
+    align-items: center;  
+}
+
+.content-box {
+    width: 200px;
+    text-indent: 10px;
+    background-color: #92ffa24d;
+    border: 1px solid rgb(214, 59, 59,);
+    box-shadow: 0 10px 30px rgb(103, 0, 0);
+    padding: 20px;           
+    display: flex;           
+    flex-direction: column; 
+    align-items: center;   
+    gap: 15px;          
+}
+
+.button {
+    display: inline-block; 
+    margin: 0;            
+    padding: 10px 20px;
+    background-color: #0b2907;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #0dfe00;
+}
